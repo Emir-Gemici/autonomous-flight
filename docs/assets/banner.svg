@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title description">
+  <title id="title">Autonomous Flight</title>
+  <desc id="description">MAVLink, computer vision and mission monitoring. A quadcopter follows a cyan elliptical route on a dark blue grid.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#142c43"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#6aa8c6" stroke-opacity=".1" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="330" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="330" rx="20" fill="url(#grid)"/>
+  <rect x="56" y="55" width="4" height="25" rx="2" fill="#66e7d0"/>
+  <text x="74" y="73" fill="#66e7d0" font-family="Arial, sans-serif" font-size="14" letter-spacing="3">VISION-GUIDED UAV DEVELOPMENT</text>
+  <text x="54" y="149" fill="#f4f8fc" font-family="Arial, sans-serif" font-weight="700" font-size="53" letter-spacing="1">AUTONOMOUS</text>
+  <text x="54" y="210" fill="#f4f8fc" font-family="Arial, sans-serif" font-weight="700" font-size="53" letter-spacing="1">FLIGHT</text>
+  <text x="57" y="263" fill="#9fb8cd" font-family="Arial, sans-serif" font-size="17">MAVLink  /  Computer vision  /  Mission monitoring</text>
+  <g transform="translate(917 168) rotate(-23)">
+    <ellipse rx="187" ry="91" fill="none" stroke="#67e6ce" stroke-opacity=".16" stroke-width="22"/>
+    <ellipse rx="187" ry="91" fill="none" stroke="#67e6ce" stroke-opacity=".8" stroke-width="2" stroke-dasharray="7 8"/>
+    <circle cx="-187" r="6" fill="#67e6ce"/>
+    <circle cx="187" r="6" fill="#67e6ce"/>
+  </g>
+  <g transform="translate(917 168)" fill="none" stroke="#e9f6fc" stroke-width="4" stroke-linecap="round">
+    <path d="M -35 -35 L 35 35 M -35 35 L 35 -35"/>
+    <circle cx="-43" cy="-43" r="25"/>
+    <circle cx="43" cy="-43" r="25"/>
+    <circle cx="-43" cy="43" r="25"/>
+    <circle cx="43" cy="43" r="25"/>
+    <rect x="-15" y="-22" width="30" height="44" rx="9" fill="#17374b"/>
+    <path d="M -5 -9 L 0 -14 L 5 -9" stroke="#67e6ce" stroke-width="3"/>
+  </g>
+  <text x="835" y="292" fill="#67e6ce" font-family="Arial, sans-serif" font-size="12" letter-spacing="3">RESEARCH PROTOTYPE</text>
+</svg>
