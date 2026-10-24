@@ -1,0 +1,39 @@
+# Local Python environments and caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated telemetry, plots and recordings
+Monitor_logs/
+*.log
+*.avi
+*.mp4
+*.mkv
+
+# Original nested copy; canonical source is autonomous_flight_Py/
+/autonomous_flight/

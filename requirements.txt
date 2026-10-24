@@ -1,0 +1,3 @@
+# Desktop development, webcam examples and unit tests.
+-r requirements-core.txt
+opencv-python>=4.10,<6
